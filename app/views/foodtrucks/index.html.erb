@@ -1,0 +1,7 @@
+<h1>SF Foodtrucks</h1>
+
+<% @foodtrucks.each do |foodtruck| %>
+  <h2><%= foodtruck['applicant'] %></h2>
+  <h4><%= foodtruck['dayofweekstr'] %></h4>
+  <h4><%= foodtruck['location'] %></h4>
+<% end %>
